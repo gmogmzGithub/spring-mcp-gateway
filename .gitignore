@@ -1,0 +1,98 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+!.mvn/wrapper/maven-wrapper.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Spring Boot
+spring.log
+application-*.properties
+!application.properties
+!application.yml
+
+# IDE Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+/coverage/
+/.nyc_output
+*.lcov
+
+# Build artifacts
+dist/
+out/
+
+# Dependency directories
+node_modules/
+
+# Package Files
+*.tgz
+*.tar.gz
+
+# JVM Crash Logs
+replay_pid*
+
+# Application specific
+application-local.yml
+application-dev.yml
+application-prod.yml
+config/local/
+
+# Claude Code
+.claude/
